@@ -1,0 +1,66 @@
+h1{
+    font-size: 36px !important; 
+    font-weight: bold !important;   
+}
+
+h3{
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+P{
+    font-size: 14px !important; 
+}
+
+
+/* testimonial section */
+.rate-img{
+    width: 100px !important;
+}
+.author-img{
+    width: 80px !important;
+}
+
+/* FAQ */
+
+/* Mobile */
+/* @media (max-width: 767px) {
+    .accordion-title {
+    width: 100vw;
+
+        
+}
+} */
+
+
+
+.accordion-title {
+    transition: background-color 0.3s ease;
+        
+}
+
+.accordion-item{
+    transition: border-color 0.3s ease, height 0.3s ease;  
+}
+
+.accordion-content {
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.accordion-title.active {
+    border-bottom: #D4D4D4 solid 1px;
+    background-color: #cfe2ff;
+    
+}
+.accordion-icon {
+        transition: transform 0.3s ease; 
+    }
+    .accordion-title.active .accordion-icon {
+        transform: rotate(180deg); 
+    }
+
+
